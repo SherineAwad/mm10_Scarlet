@@ -41,3 +41,33 @@ mm10_scarlet]$ tree -L 4
     ├── sjdbList.out.tab
     └── transcriptInfo.tab
 
+``` 
+### Snapshot of Slurm run for Cell Ranger ARC custom reference
+
+[BWTIncConstructFromPacked] 610 iterations done. 5454101738 characters processed.  
+[bwt_gen] Finished constructing BWT in 614 iterations.  
+[bwa_index] 1856.12 seconds elapse.  
+[bwa_index] Update BWT... 16.89 sec  
+[bwa_index] Pack forward-only FASTA... 10.54 sec  
+[bwa_index] Construct SA from BWT and Occ... 840.44 sec  
+[main] Version: 0.7.17-r1188  
+[main] CMD: bwa index /nfs/turbo/umms-thahoang/sherine/Custom_Ref/mm10_scarlet/fasta/genome.fa  
+[main] Real time: 2792.803 sec; CPU: 2739.989 sec  
+done  
+
+Writing TSS and transcripts bed file...  
+...done  
+
+Writing genome metadata JSON file into reference folder...  
+Computing hash of genome FASTA file...  
+...done  
+
+Computing hash of genes GTF file...  
+...done  
+
+...done  
+
+>>> Reference successfully created at mm10_scarlet <<<  
+
+✅ Cell Ranger ARC custom reference mm10_scarlet created successfully.
+
