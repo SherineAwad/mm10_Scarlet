@@ -45,3 +45,5 @@ mkref: $(CONFIG_JSON)
 	$(CELLRANGER)/cellranger-arc mkref --config=$(CONFIG_JSON) 
 	@echo "✅ Cell Ranger ARC custom reference $(MKREF_DIR) created successfully."
 
+all: mkref 
+
